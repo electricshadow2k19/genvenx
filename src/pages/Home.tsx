@@ -14,14 +14,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-slate-900">
-              <span className="text-gradient">Your Vision.</span>
-              <br />
-              <span className="text-slate-800">Our Innovation.</span>
-              <br />
-              <span className="text-gradient">One GenvenX.</span>
+              <span className="text-gradient">GenvenX</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-slate-700 mb-8 font-medium">
-              Empowering the Future of Technology
+            <p className="text-xl sm:text-2xl text-slate-700 mb-4 font-medium">
+              Empowering the Future of Technology. Your Vision. Our Innovation. One GenvenX.
             </p>
             <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">
               Strategic Minds. Technical Excellence. Your Partner in Digital Transformation.
