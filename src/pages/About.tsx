@@ -26,13 +26,13 @@ export default function About() {
           <div className="max-w-4xl mx-auto">
             <div className="glass-card p-8 sm:p-12 mb-12">
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Genvenx is a next-generation AI-driven technology consulting and software solutions company helping businesses innovate, transform, and scale with confidence. We specialize in artificial intelligence, software development, IT consulting, cloud engineering, and technology staffing. Our mission is to empower companies with intelligent, future-ready technology solutions that enhance performance, accelerate growth, and unlock new opportunities.
+                GenvenX is a next-generation AI-driven technology consulting and software solutions company helping businesses innovate, transform, and scale with confidence. We specialize in artificial intelligence, software development, IT consulting, cloud engineering, and technology staffing. Our mission is to empower companies with intelligent, future-ready technology solutions that enhance performance, accelerate growth, and unlock new opportunities.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                With deep expertise across AI, machine learning, cloud, automation, DevOps, and enterprise software, Genvenx delivers solutions that are robust, secure, and scalable. Whether it's developing high-impact applications, enabling digital transformation, implementing AI automation, or providing skilled technology talent, we ensure our clients stay ahead in a rapidly evolving digital world.
+                With deep expertise across AI, machine learning, cloud, automation, DevOps, and enterprise software, GenvenX delivers solutions that are robust, secure, and scalable. Whether it's developing high-impact applications, enabling digital transformation, implementing AI automation, or providing skilled technology talent, we ensure our clients stay ahead in a rapidly evolving digital world.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
-                At Genvenx, we believe in partnership, trust, innovation, and technical excellence. Our approach blends global experience with personalized service, enabling organizations to build smarter, move faster, and operate more efficiently. We are committed to helping businesses reimagine what's possible through technology — today, tomorrow, and beyond.
+                At GenvenX, we believe in partnership, trust, innovation, and technical excellence. Our approach blends global experience with personalized service, enabling organizations to build smarter, move faster, and operate more efficiently. We are committed to helping businesses reimagine what's possible through technology — today, tomorrow, and beyond.
               </p>
             </div>
 
