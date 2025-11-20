@@ -26,18 +26,18 @@ export default function Contact() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-slate-200/20 rounded-full blur-3xl" />
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h1 className="text-5xl sm:text-6xl font-bold mb-6">
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-slate-900">
               <span className="text-gradient">Get in Touch</span>
             </h1>
-            <p className="text-xl text-white/80">
+            <p className="text-xl text-slate-700 font-medium">
               Let's discuss how GenvenX can help transform your business
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white placeholder-white/50"
+                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 placeholder-slate-400 bg-white/80"
                       placeholder="Your Name"
                     />
                   </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white placeholder-white/50"
+                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 placeholder-slate-400 bg-white/80"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white placeholder-white/50"
+                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 placeholder-slate-400 bg-white/80"
                       placeholder="Your Company"
                     />
                   </div>
@@ -110,13 +110,13 @@ export default function Contact() {
                       rows={6}
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white placeholder-white/50 resize-none"
+                      className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 placeholder-slate-400 bg-white/80 resize-none"
                       placeholder="Tell us about your project or inquiry..."
                     />
                   </div>
                   <button
                     type="submit"
-                    className="w-full px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 glow-effect"
+                    className="btn-primary w-full"
                   >
                     Send Message
                   </button>
@@ -148,7 +148,7 @@ export default function Contact() {
                         <h3 className="font-semibold mb-1">Email</h3>
                         <a
                           href="mailto:info@genvenx.com"
-                          className="text-white/80 hover:text-white transition-colors"
+                          className="text-slate-600 hover:text-blue-600 transition-colors"
                         >
                           info@genvenx.com
                         </a>
@@ -172,7 +172,7 @@ export default function Contact() {
                         <h3 className="font-semibold mb-1">Phone</h3>
                         <a
                           href="tel:+914023456789"
-                          className="text-white/80 hover:text-white transition-colors"
+                          className="text-slate-600 hover:text-blue-600 transition-colors"
                         >
                           +91 40 2345 6789
                         </a>
@@ -195,7 +195,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Address</h3>
-                        <p className="text-white/80">
+                        <p className="text-slate-600">
                           Tech Park, HITEC City<br />
                           Hyderabad, Telangana 500081<br />
                           India
@@ -207,7 +207,7 @@ export default function Contact() {
 
                 <div className="glass-card p-8 sm:p-12">
                   <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
-                  <div className="space-y-2 text-white/80">
+                  <div className="space-y-2 text-slate-600">
                     <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
                     <p>Saturday: 10:00 AM - 2:00 PM IST</p>
                     <p>Sunday: Closed</p>

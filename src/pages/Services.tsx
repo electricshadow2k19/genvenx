@@ -79,18 +79,18 @@ export default function Services() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+          <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-slate-200/20 rounded-full blur-3xl" />
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h1 className="text-5xl sm:text-6xl font-bold mb-6">
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-slate-900">
               <span className="text-gradient">Our Services</span>
             </h1>
-            <p className="text-xl text-white/80">
+            <p className="text-xl text-slate-700 font-medium">
               Comprehensive technology solutions to transform your business
             </p>
           </div>
@@ -118,14 +118,14 @@ export default function Services() {
                     <h2 className="text-3xl font-bold mb-4">
                       <span className="text-gradient">{service.title}</span>
                     </h2>
-                    <p className="text-lg text-white/90 mb-6 leading-relaxed">
+                    <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                       {service.description}
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {service.features.map((feature, featureIndex) => (
                         <div
                           key={featureIndex}
-                          className="flex items-center space-x-2 text-white/80"
+                          className="flex items-center space-x-2 text-slate-600"
                         >
                           <svg
                             className="w-5 h-5 text-blue-400 flex-shrink-0"
@@ -157,12 +157,12 @@ export default function Services() {
             <h2 className="text-4xl font-bold mb-4">
               <span className="text-gradient">Ready to Get Started?</span>
             </h2>
-            <p className="text-xl text-white/80 mb-8">
+            <p className="text-xl text-slate-700 mb-8">
               Let's discuss how we can help transform your business with our services
             </p>
             <Link
               to="/contact"
-              className="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 glow-effect"
+              className="btn-primary inline-block"
             >
               Contact Us Today
             </Link>
