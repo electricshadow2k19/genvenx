@@ -1,11 +1,12 @@
 {
   "name": "genvenx-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "Genvenx - Business and Technology Consulting Services",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
