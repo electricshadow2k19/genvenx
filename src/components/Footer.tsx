@@ -15,7 +15,9 @@ export default function Footer() {
               <span className="text-xl font-bold text-gradient">GenvenX</span>
             </div>
             <p className="text-slate-600 mb-4 max-w-md">
-              Empowering the Future of Technology. Your Vision. Our Innovation. One GenvenX.
+              Empowering the Future of Technology.
+              <br />
+              Your Vision. Our Innovation. One GenvenX.
             </p>
             <p className="text-slate-500 text-sm">
               GenvenX Business and Technology Consulting Services Pvt Ltd
