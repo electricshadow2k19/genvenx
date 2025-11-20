@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Router basename="/genvenx">
+    <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
