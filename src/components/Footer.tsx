@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="glass-strong border-t border-white/20 mt-20">
+    <footer className="glass-strong border-t border-slate-200 mt-20 bg-white/90">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -14,35 +14,35 @@ export default function Footer() {
               <Logo className="w-8 h-8" />
               <span className="text-xl font-bold text-gradient">GenvenX</span>
             </div>
-            <p className="text-white/70 mb-4 max-w-md">
+            <p className="text-slate-600 mb-4 max-w-md">
               Empowering the Future of Technology. Your Vision. Our Innovation. One GenvenX.
             </p>
-            <p className="text-white/60 text-sm">
+            <p className="text-slate-500 text-sm">
               Genvenx Business and Technology Consulting Services Pvt Ltd
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-slate-900">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-white/70 hover:text-white transition-colors">
+                <Link to="/" className="text-slate-600 hover:text-blue-600 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-white/70 hover:text-white transition-colors">
+                <Link to="/about" className="text-slate-600 hover:text-blue-600 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-white/70 hover:text-white transition-colors">
+                <Link to="/services" className="text-slate-600 hover:text-blue-600 transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white/70 hover:text-white transition-colors">
+                <Link to="/contact" className="text-slate-600 hover:text-blue-600 transition-colors">
                   Contact
                 </Link>
               </li>
@@ -51,15 +51,15 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <ul className="space-y-2 text-white/70 text-sm">
+            <h3 className="text-lg font-semibold mb-4 text-slate-900">Contact</h3>
+            <ul className="space-y-2 text-slate-600 text-sm">
               <li>
-                <a href="mailto:info@genvenx.com" className="hover:text-white transition-colors">
+                <a href="mailto:info@genvenx.com" className="hover:text-blue-600 transition-colors">
                   info@genvenx.com
                 </a>
               </li>
               <li>+91 40 2345 6789</li>
-              <li className="text-white/60">
+              <li className="text-slate-500">
                 Tech Park, HITEC City<br />
                 Hyderabad, Telangana 500081<br />
                 India
@@ -68,8 +68,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-white/60 text-sm">
+        <div className="border-t border-slate-200 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-slate-500 text-sm">
             © {currentYear} Genvenx Business and Technology Consulting Services Pvt Ltd. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
@@ -77,7 +77,7 @@ export default function Footer() {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/60 hover:text-white transition-colors"
+              className="text-slate-500 hover:text-blue-600 transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@ export default function Footer() {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/60 hover:text-white transition-colors"
+              className="text-slate-500 hover:text-blue-600 transition-colors"
               aria-label="Twitter"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
