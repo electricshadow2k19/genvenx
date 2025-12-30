@@ -1,6 +1,6 @@
 # GenvenX Website
 
-A futuristic, glassmorphic website for GenvenX Business and Technology Consulting Services Pvt Ltd.
+A futuristic, glassmorphic website for GenvenX Technologies Pvt Ltd.
 
 ## 🚀 Features
 
@@ -49,5 +49,5 @@ The production build will be in the `dist` directory.
 
 ## 📝 License
 
-© 2024 GenvenX Business and Technology Consulting Services Pvt Ltd. All rights reserved.
+© 2024 GenvenX Technologies Pvt Ltd. All rights reserved.
 

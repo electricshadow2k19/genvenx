@@ -20,7 +20,7 @@ export default function Footer() {
               Your Vision. Our Innovation. One GenvenX.
             </p>
             <p className="text-slate-500 text-sm">
-              GenvenX Business and Technology Consulting Services Pvt Ltd
+              GenvenX Technologies Pvt Ltd
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-200 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-slate-500 text-sm">
-            © {currentYear} GenvenX Business and Technology Consulting Services Pvt Ltd. All rights reserved.
+            © {currentYear} GenvenX Technologies Pvt Ltd. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a

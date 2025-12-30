@@ -2,7 +2,7 @@
   "name": "genvenx-website",
   "version": "1.0.0",
   "type": "module",
-  "description": "GenvenX - Business and Technology Consulting Services",
+  "description": "GenvenX - Technologies Pvt Ltd",
   "private": true,
   "scripts": {
     "dev": "vite",
