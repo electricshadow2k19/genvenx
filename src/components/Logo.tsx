@@ -17,19 +17,20 @@ export default function Logo({ className = '' }: LogoProps) {
           <stop offset="100%" stopColor="#ec4899" />
         </linearGradient>
       </defs>
-      <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" opacity="0.2" />
-      <path
-        d="M30 50 L45 35 L55 35 L70 50 L55 65 L45 65 Z"
-        fill="url(#logoGradient)"
-        stroke="url(#logoGradient)"
-        strokeWidth="2"
-      />
-      <path
-        d="M40 50 L50 40 L60 50 L50 60 Z"
+      <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" opacity="0.15" />
+      <circle cx="50" cy="50" r="38" fill="url(#logoGradient)" />
+      <text
+        x="50"
+        y="68"
+        fontSize="48"
+        fontWeight="700"
         fill="white"
-        opacity="0.9"
-      />
-      <circle cx="50" cy="50" r="8" fill="url(#logoGradient)" />
+        textAnchor="middle"
+        fontFamily="'Inter', 'Arial', sans-serif"
+        letterSpacing="-1"
+      >
+        G
+      </text>
     </svg>
   )
 }
