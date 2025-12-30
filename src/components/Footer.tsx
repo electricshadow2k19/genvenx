@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Logo from './Logo'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,7 +10,6 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Logo className="w-8 h-8" />
               <span className="text-xl font-bold text-gradient">GenvenX</span>
             </div>
             <p className="text-slate-600 mb-4 max-w-md">
